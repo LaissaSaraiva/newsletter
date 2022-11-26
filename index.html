@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Newsletter</title>
+    <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a7e2bd8b8b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -18,15 +20,19 @@
   </head>
   <body class="bg-[url('./imgs/background.png')] bg-repeat-round">
     <main
-      class="w-screen h-screen lg:w-3/4 flex justify-center items-center m-auto"
+      class="w-screen h-screen lg:w-3/4 flex justify-center items-center m-auto p-6 gap-4"
     >
-      <section class="hidden lg:block w-1/4">
+      <section class="hidden lg:block lg:w-2/4 xl:w-1/4">
         <img class="m-auto" src="./imgs/woman.png" alt="" />
       </section>
-      <section class="lg:w-2/4">
+      <section class="lg:w-3/4 xl:w-2/4">
         <div
           class="border-solid border-2 border-white rounded-3xl p-6 lg:p-8 flex flex-col justify-center self-center gap-4 shadow-2xl bg-sky-100"
         >
+        <div class="text-center text-4xl">
+          <i class="fa-solid fa-bell"></i>
+        </div>
+
           <div id="newsletter" class="text-center">
             <h1 class="text-4xl font-bold">Newsletter</h1>
             <h2>Cadastre seu email e receba nossas novidades!</h2>
